@@ -117,8 +117,7 @@ function App() {
               />
             </figure>
             <GlassSurface className="absolute bottom-3 left-3 max-w-[19rem] rounded-[18px] p-4 md:-left-5 md:bottom-8" interactive>
-              <p className="font-mono text-xs font-semibold tracking-[0.08em] text-accent">&gt;_ EGY WORKSPACE</p>
-              <p className="mt-2 font-mono text-xs leading-relaxed text-[var(--text-muted)]">Active stack: React, Laravel, Python, and Data Science.<br />Focus: building useful software and learning from data.</p>
+              <p className="font-mono text-xs leading-relaxed text-[var(--text-muted)]">Active stack: React, Laravel, Python, and Data Science.</p>
             </GlassSurface>
           </motion.div>
         </section>

@@ -160,7 +160,13 @@ function App() {
             {portfolio.projects.map((project, index) => (
               <Reveal key={project.title} className={index === 0 ? "project-featured" : ""}>
                 <GlassSurface className="project-card h-full rounded-[22px]" interactive>
-                  <a href={project.href} aria-label={`Open project ${project.title}`} className="focus-ring block h-full rounded-[22px]">
+                  <a
+                    href={project.href}
+                    target={project.href.startsWith("http") ? "_blank" : undefined}
+                    rel={project.href.startsWith("http") ? "noreferrer" : undefined}
+                    aria-label={`Open project ${project.title}`}
+                    className="focus-ring block h-full rounded-[22px]"
+                  >
                     <div className="project-image-wrap">
                       <img src={project.image} alt={`Preview of ${project.title}`} loading="lazy" />
                     </div>

@@ -17,7 +17,7 @@ export const portfolio = {
       description: "A responsive personal finance web app for tracking income, expenses, wallets, budgets, and savings goals—with spending analytics, offline-first storage, and optional Gemini-assisted transaction parsing.",
       tags: ["React", "PWA", "Gemini AI"],
       image: "/project-finspace.png",
-      href: "#",
+      href: "https://finspace-one.vercel.app/",
     },
     {
       title: "FitFlow",

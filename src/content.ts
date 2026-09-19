@@ -13,10 +13,10 @@ export const portfolio = {
   },
   projects: [
     {
-      title: "CashNova",
-      description: "An Android finance app for tracking wallets, income, expenses, savings goals, and simple financial summaries.",
-      tags: ["Kotlin", "Jetpack Compose", "Android"],
-      image: "/project-cashnova.png",
+      title: "FinSpace",
+      description: "A responsive personal finance web app for tracking income, expenses, wallets, budgets, and savings goals—with spending analytics, offline-first storage, and optional Gemini-assisted transaction parsing.",
+      tags: ["React", "PWA", "Gemini AI"],
+      image: "/project-finspace.png",
       href: "#",
     },
     {

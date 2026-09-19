@@ -20,10 +20,10 @@ export const portfolio = {
       href: "#",
     },
     {
-      title: "Fitness Tracker",
-      description: "A fitness dashboard for keeping track of daily activity, nutrition, workout history, and progress over time.",
-      tags: ["React", "Dashboard", "Data Visualization"],
-      image: "/project-fitness.png",
+      title: "FitFlow",
+      description: "Built FitFlow, a full-stack fitness tracking web app that helps users log workouts, track meals and macros, monitor daily activity, and receive personalized coaching insights. Key features include workout templates and history, meal logging with camera-based food scanning, calorie and macro tracking, daily activity progress, analytics, and an AI fitness coach. I designed the responsive interface and built the backend with Node.js and SQLite.",
+      tags: ["React", "Node.js", "SQLite"],
+      image: "/project-fitflow.png",
       href: "#",
     },
     {

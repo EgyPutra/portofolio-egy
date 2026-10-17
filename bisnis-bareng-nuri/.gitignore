@@ -1,0 +1,11 @@
+node_modules/
+.next/
+out/
+studio/dist/
+.env*
+!.env.example
+.wrangler/
+*.tsbuildinfo
+.openai/deploy-state.json
+
+.sanity/

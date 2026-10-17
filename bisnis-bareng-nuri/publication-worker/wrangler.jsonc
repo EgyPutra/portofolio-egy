@@ -1,0 +1,6 @@
+{
+  "name":"nuri-publication", "main":"index.ts", "compatibility_date":"2026-10-01",
+  "durable_objects":{"bindings":[{"name":"PUBLISHER","class_name":"Publisher"}]},
+  "migrations":[{"tag":"v1","new_sqlite_classes":["Publisher"]}],
+  "vars":{"SANITY_PROJECT_ID":"","SANITY_DATASET":"production","SANITY_ALLOWED_USER_IDS":"","STUDIO_ORIGIN":"","GITHUB_REPOSITORY":"","CLOUDFLARE_ACCOUNT_ID":"","CLOUDFLARE_PAGES_PROJECT":"","PRODUCTION_URL":""}
+}
